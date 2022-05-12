@@ -6,6 +6,7 @@ create project
         npm: npm install
             npm install -D tailwindcss
             npm install vue-loading-overlay@^5.0 
+        
     service 1
         create project: curl -s "https://laravel.build/service1" | bash
     service 2
