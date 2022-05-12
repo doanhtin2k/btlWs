@@ -1,10 +1,15 @@
 create project
     taskservice: 
+    
         create project: curl -s "https://laravel.build/taskservice" | bash
+        
             add jetstream : composer require laravel/jetstream
+            
             add inertia : sail php artisan jetstream:install inertia
             npm: npm install
+            
                 npm install -D tailwindcss
+                
                 npm install vue-loading-overlay@^5.0 
         
         service 1
